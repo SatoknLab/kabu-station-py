@@ -1,12 +1,12 @@
-from src.kabucom import Kabucom
-from src.enums.exchange import Exchange
-from src.enums.security_type import SecurityType
-from src.enums.side import Side
-from src.enums.cash_margin import CashMargin
-from src.enums.margin_trade_type import MarginTradeType
-from src.enums.deliv_type import DelivType
-from src.enums.account_type import AccountType
-from src.enums.front_order_type import FrontOrderType
+from src.kabu_station_py.kabucom import Kabucom
+from src.kabu_station_py.enums.exchange import Exchange
+from src.kabu_station_py.enums.security_type import SecurityType
+from src.kabu_station_py.enums.side import Side
+from src.kabu_station_py.enums.cash_margin import CashMargin
+from src.kabu_station_py.enums.margin_trade_type import MarginTradeType
+from src.kabu_station_py.enums.deliv_type import DelivType
+from src.kabu_station_py.enums.account_type import AccountType
+from src.kabu_station_py.enums.front_order_type import FrontOrderType
 
 
 class TestKabucom():
