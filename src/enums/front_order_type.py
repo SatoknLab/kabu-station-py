@@ -1,0 +1,18 @@
+from enum import Enum
+
+class FrontOrderType(Enum):
+    MARKET = 10
+    OPEN_MARKET = 13
+    CLOSE_MARKET = 14
+    OPEN_MARKET_SELL = 15
+    CLOSE_MARKET_SELL = 16
+    IOC_MARKET = 17
+    LIMIT = 20
+    OPEN_LIMIT = 21
+    CLOSE_LIMIT = 22
+    OPEN_LIMIT_SELL = 23
+    CLOSE_LIMIT_SELL = 24
+    OPEN_CANCEL = 25
+    CLOSE_CANCEL = 26
+    IOC_LIMIT = 27
+    STOP = 30
